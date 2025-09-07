@@ -1,0 +1,13 @@
+#The first part of funtion is defination ....
+def funtionReturn(*number):
+    ans = 0
+    for num in number:
+        ans += num
+#After the return use in the that funtion not excute the linr written after the return statement .....
+    return ans  
+    print("Hello") #it is not excuted....
+#The next part is calling that Funtion ....
+a = int(input())
+b = int(input())
+c = funtionReturn(a , b)
+print(c)

@@ -1,0 +1,6 @@
+#The first part of funtion is defination ....
+def myFun():
+    print("Hello world!")
+
+#The next part is calling that Funtion ....
+myFun()    
