@@ -1,0 +1,11 @@
+#definetion of slicing
+myList = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+print("Original List:", myList)  # Output: Original List: [10, 20, 30, 40, 50, 60, 70, 80, 90]
+#slicing syntax myList[start:end:step]
+print(myList[2:7])  # Output: [30, 40, 50, 60, 70]
+print(myList[:5])   # Output: [10, 20, 30, 40, 50]
+print(myList[4:])   # Output: [50, 60, 70, 80, 90]          
+print(myList[:])    # Output: [10, 20, 30, 40, 50, 60, 70, 80, 90]
+print(myList[1:8:2])  # Output: [20, 40, 60, 80]
+print(myList[::3])     # Output: [10, 40, 70]
+print(myList[::-1])    # Output: [90, 80, 70, 60, 50, 40, 30, 20, 10]
